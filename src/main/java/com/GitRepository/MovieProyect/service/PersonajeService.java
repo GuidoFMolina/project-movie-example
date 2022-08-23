@@ -1,9 +1,9 @@
-package service;
+package com.GitRepository.MovieProyect.service;
 
-import model.Personaje;
+import com.GitRepository.MovieProyect.model.Personaje;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.PersonajeRepository;
+import com.GitRepository.MovieProyect.repository.PersonajeRepository;
 import java.util.List;
 
 @Service

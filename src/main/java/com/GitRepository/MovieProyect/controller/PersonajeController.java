@@ -1,11 +1,11 @@
-package controller;
+package com.GitRepository.MovieProyect.controller;
 
-import model.Personaje;
+import com.GitRepository.MovieProyect.model.Personaje;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import service.PersonajeService;
+import com.GitRepository.MovieProyect.service.PersonajeService;
 
 @RestController
 public class PersonajeController {

@@ -1,11 +1,10 @@
-package service;
+package com.GitRepository.MovieProyect.service;
 
-import model.Genero;
+import com.GitRepository.MovieProyect.model.Genero;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.GeneroRepository;
+import com.GitRepository.MovieProyect.repository.GeneroRepository;
 
-import javax.persistence.Id;
 import java.util.List;
 
 @Service

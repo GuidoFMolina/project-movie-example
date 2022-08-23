@@ -1,9 +1,9 @@
-package service;
+package com.GitRepository.MovieProyect.service;
 
-import model.Pelicula;
+import com.GitRepository.MovieProyect.model.Pelicula;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.PeliculaRepository;
+import com.GitRepository.MovieProyect.repository.PeliculaRepository;
 
 import java.util.List;
 @Service
